@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:text="Hours"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="23dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-13dp"
+                        android:text="Take Appointment . plz click button according to your time"/>
+
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Sec"
+                            android:layout_width="190dp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="23dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/border"
+                            android:text="Fix Appointment"/>
+
+                    <TextView
+                        android:id="@+id/Third"
+                        android:layout_width="190dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="23dp"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="About Hospital"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                            android:id="@+id/forth"
+                            android:layout_width="190dp"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="23dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/border"
+                            android:text="Hospital Images"/>
+
+                    <TextView
+                        android:id="@+id/map"
+                        android:layout_width="190dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border"
+                        android:text="Map"/>
+                </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Only For emergency patient hi niche diye gye doctor se appointment lene ke liye call kr skte h
+                        baki sb fix appointment se hi krna h"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="Doctors"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:id="@+id/chat_doc"
+                        android:background="@drawable/border"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/user" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:text="Doctor Name"
+                                android:textColor="@color/white"
+                                android:textSize="30dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:text="Cold, Cough, Flu"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="330dp"
+                            android:src="@drawable/add" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/border"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/user" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:text="Doctor Name"
+                                android:textColor="@color/white"
+                                android:textSize="30dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:text="Children Desease"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="330dp"
+                            android:src="@drawable/add" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/border"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/user" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:text="Doctor Name"
+                                android:textColor="@color/white"
+                                android:textSize="30dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:text="Bone Pain"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="330dp"
+                            android:src="@drawable/add" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:src="@drawable/user" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:text="Doctor Name"
+                                android:textColor="@color/white"
+                                android:textSize="30dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="30dp"
+                            android:text="Any other deseas"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="330dp"
+                            android:src="@drawable/add" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/history"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Appointment History" />
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
