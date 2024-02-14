@@ -3,6 +3,7 @@ package com.cscorner.appointment_app.home;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import org.w3c.dom.Text;
 
 public class login extends AppCompatActivity {
+    public static String PREFS_NAME = "MyPresFile";
     TextView sign1;
     EditText name1, password1;
     Button btn1;
@@ -51,6 +53,15 @@ public class login extends AppCompatActivity {
                         Toast.makeText(login.this, "Invalid credential", Toast.LENGTH_SHORT).show();
                     }
                 }
+
+                SharedPreferences sharedPreferences = getSharedPreferences(login.PREFS_NAME, 0);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                editor.putBoolean("hasLoggedIn", true);
+                editor.commit();
+
+                startActivity(new Intent(login.this, HomePage.class));
+                finish();
             }
         });
 

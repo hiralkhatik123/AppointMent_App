@@ -102,8 +102,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Only For emergency patient hi niche diye gye doctor se appointment lene ke liye call kr skte h
-                        baki sb fix appointment se hi krna h"
+                        android:text="Only For emergency patient hi niche diye gye doctor se appointment lene ke liye call kr skte h baki sb fix appointment se hi krna h"
                         android:textStyle="bold"
                         tools:ignore="HardcodedText" />
 

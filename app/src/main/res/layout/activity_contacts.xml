@@ -79,7 +79,7 @@
                 android:textColor="@color/white"
                 android:textSize="27sp"
                 android:layout_width="match_parent"
-                android:text="Cold, Cough, Flu"
+                android:text="Children Desease"
                 android:layout_height="wrap_content"/>
             <LinearLayout
                 android:layout_marginBottom="15dp"
@@ -121,13 +121,15 @@
                     android:layout_width="match_parent"
                     android:text="Doctor Name"
                     android:layout_height="wrap_content"/>
+
                 <TextView
-                    android:layout_marginBottom="15dp"
-                    android:textColor="@color/white"
-                    android:textSize="27sp"
                     android:layout_width="match_parent"
-                    android:text="Cold, Cough, Flu"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Bone Pain"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+
                 <LinearLayout
                     android:layout_marginBottom="15dp"
                     android:layout_width="match_parent"
@@ -168,13 +170,15 @@
                     android:layout_width="match_parent"
                     android:text="Doctor Name"
                     android:layout_height="wrap_content"/>
+
                 <TextView
-                    android:layout_marginBottom="15dp"
-                    android:textColor="@color/white"
-                    android:textSize="27sp"
                     android:layout_width="match_parent"
-                    android:text="Cold, Cough, Flu"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Any other deseas"
+                    android:textColor="@color/white"
+                    android:textSize="27sp" />
+
                 <LinearLayout
                     android:layout_marginBottom="15dp"
                     android:layout_width="match_parent"

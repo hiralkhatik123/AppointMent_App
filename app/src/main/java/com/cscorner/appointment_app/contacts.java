@@ -22,7 +22,13 @@ public class contacts extends AppCompatActivity {
         setContentView(R.layout.activity_contacts);
 
         copy = (ImageView) findViewById(R.id.copy);
+        copy1 = (ImageView) findViewById(R.id.copy1);
+        copy2 = (ImageView) findViewById(R.id.copy2);
+        copy3 = (ImageView) findViewById(R.id.copy3);
         firstText = (TextView) findViewById(R.id.firstText);
+        secText = (TextView) findViewById(R.id.secText);
+        thirdText = (TextView) findViewById(R.id.thirdText);
+        forText = (TextView) findViewById(R.id.forText);
 
         copy.setOnClickListener(new View.OnClickListener() {
             @Override
